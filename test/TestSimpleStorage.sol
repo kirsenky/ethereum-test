@@ -4,7 +4,7 @@ import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
 import "../contracts/SimpleStorage.sol";
 
-contract TestSimpleStorage {break
+contract TestSimpleStorage {
 
   function testItStoresAValue() public {
     SimpleStorage simpleStorage = SimpleStorage(DeployedAddresses.SimpleStorage());
